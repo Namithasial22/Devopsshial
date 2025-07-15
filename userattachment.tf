@@ -3,3 +3,4 @@ resource "aws_iam_group_membership" "jaya" {
 users =[aws_iam_user.shial_22.name]
 group = aws_iam_group.jaya.name
 }
+
